@@ -1,0 +1,33 @@
+{
+  "id": "template-nfv",
+  "description": "Network Functions Virtualization",
+  "attributes": {
+    "nfv": {
+      
+    }
+  },
+  "deployment": {
+    "nfv": {
+      "crowbar-revision": 0,
+      "crowbar-applied": false,
+      "schema-revision": 100,
+      "element_states": {
+        "nfv": [ "readying", "ready", "applying" ]
+      },
+      "elements": {},
+      "element_order": [
+        [ "nfv" ]
+      ],
+      "element_run_list_order": {
+        "nfv": 83
+      },
+      "config": {
+        "environment": "nfv-config-base",
+        "mode": "full",
+        "transitions": false,
+        "transition_list": [
+        ]
+      }
+    }
+  }
+}
