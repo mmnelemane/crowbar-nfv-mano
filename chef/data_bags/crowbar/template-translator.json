@@ -1,0 +1,33 @@
+{
+  "id": "template-translator",
+  "description": "Heat Translator for TOSCA templates",
+  "attributes": {
+    "translator": {
+      
+    }
+  },
+  "deployment": {
+    "translator": {
+      "crowbar-revision": 0,
+      "crowbar-applied": false,
+      "schema-revision": 100,
+      "element_states": {
+        "nfv": [ "readying", "ready", "applying" ]
+      },
+      "elements": {},
+      "element_order": [
+        [ "translator" ]
+      ],
+      "element_run_list_order": {
+        "translator": 221
+      },
+      "config": {
+        "environment": "translator-config-base",
+        "mode": "full",
+        "transitions": false,
+        "transition_list": [
+        ]
+      }
+    }
+  }
+}
