@@ -19,7 +19,7 @@
         [ "nfv" ]
       ],
       "element_run_list_order": {
-        "nfv": 83
+        "nfv": 220
       },
       "config": {
         "environment": "nfv-config-base",
